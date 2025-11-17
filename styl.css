@@ -1,0 +1,110 @@
+*{
+    font-family: "Cambria";
+}
+body{
+    background-color: linen;
+    background-image: url("sonic-adventure-location-pics-v0-jtj12o3f1yo81.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+aside,header,footer{
+    background-color: rgba(70, 131, 180, 0.829);
+    color: white;
+    text-align: center;
+}
+aside{
+    width: 25%;
+    height: 510px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-right: 1%;
+    box-shadow: 4px 4px 5px dimgray;
+    float: left;
+}
+header{
+    width: 73%;
+    height: 80px;
+    float: left;
+}
+main{
+    width: 73%;
+    height: 400px;
+    float: left;
+}
+button{
+    background-color: steelblue;
+    color: white;
+    width: 20%;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 130%;
+    border: none;
+}
+button:hover{
+    background-color: navy;
+}
+
+#b2, #b3{
+    display: none;
+}
+table{
+    width: 100%;
+    border: 1px navy dotted;
+}
+body, html {
+  height: 100%;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  section.module h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: rgba(204,204,204,1);
+  }
+  
+  section.module p {
+    margin-bottom: 40px;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28px;	
+  }
+  
+  section.module p:last-child {
+    margin-bottom: 0;
+  }
+  
+  section.module.content {
+    padding: 60px 0;
+    text-align: left;
+  }
+  
+  section.module.parallax {
+    height: 900px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  section.module.parallax h1 {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 48px;
+    line-height: 800px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  section.module.parallax-1 {
+    background-image: url(Sonic.jpg);
+  }
+  
+  section.module.parallax-2 {
+    background-image: url(Chibi.jpg);
+  }
